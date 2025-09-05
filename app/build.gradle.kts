@@ -50,6 +50,14 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     
+    // Kodein DI
+    implementation(libs.kodein.android)
+    implementation(libs.kodein.compose)
+    
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
+    
     // Gson
     implementation(libs.gson)
     
